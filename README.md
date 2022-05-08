@@ -1,6 +1,6 @@
 # ReadMe
 
-## 競プロ典型 90問(ruby解法)
+## [競プロ典型 90問](https://atcoder.jp/contests/typical90)(ruby解法)
 
 atcoderの典型90問のrubyによる解法集.
 
