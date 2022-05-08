@@ -15,6 +15,7 @@ def bracket?(arg)
   left == 0
 end
 
+# bit全探索ではTLEとなるため、repeated_permutationで全探索
 ans = %w[( )].repeated_permutation(N).reduce([]) do |brackets, arg|
   bracket?(arg) ? brackets << arg.join : brackets
 end
