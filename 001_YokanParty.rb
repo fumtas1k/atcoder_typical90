@@ -11,19 +11,17 @@ A = gets.split.map(&:to_i)
 # ようかんを全てsize以上の長さで切断した時、k+1個以上に切断ができるか
 # 貪欲法でチェック
 def cuttable?(size)
-  cnt, pre = 0, 0
+  cuts = [0]
   A.each do |a|
     # a - pre >= size && L - a >= size の書き換え
-    if a.between?(size + pre, L - size)
-      pre = a
-      cnt += 1
-    end
+    cuts << a if a.between?(cuts[-1] + size, L - size)
   end
-  cnt >= K
+  # 初期値に入れた0はカウントしないため、その分を引く
+  cuts.size - 1 >= K
+
 end
 
-# 最大のスコアを求めるため、
-# 二分探索法を使用(bsearchではTLEになる)
+# 最大のスコアを求めるため、二分探索法を使用(bsearchではTLEになる)
 left, right = -1, L + 1
 while right - left > 1
   mid = (left + right) / 2
