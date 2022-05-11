@@ -12,3 +12,4 @@ atcoderの典型90問のrubyによる解法集.
 4. [004 - Cross Sum（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_d) -> [解](004_CrossSum.rb)
 5. 005
 6. [006 - Smallest Subsequence（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_f) -> [解](006_SmallestSubsequence.rb)
+7. [007 - CP Classes（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_g) -> [解](007_CPClasses.rb)
