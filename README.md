@@ -16,3 +16,4 @@ atcoderの典型90問のrubyによる解法集.
 10. [010 - Score Sum Queries（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_j) -> [解](010_ScoreSumQueries.rb) : [解説](https://twitter.com/e869120/status/1380652465834532865)
 11. 011
 12. [012 - Red Painting（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_l) -> [解](012_RedPainting.rb) : [解説](https://twitter.com/e869120/status/1381739128291614720)
+13. [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m) -> [解](013_Passing.rb) : [解説](https://twitter.com/e869120/status/1382101716066127872)
