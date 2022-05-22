@@ -17,3 +17,4 @@ atcoderの典型90問のrubyによる解法集.
 11. 011
 12. [012 - Red Painting（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_l) -> [解](012_RedPainting.rb) : [解説](https://twitter.com/e869120/status/1381739128291614720)
 13. [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m) -> [解](013_Passing.rb) : [解説](https://twitter.com/e869120/status/1382101716066127872)
+14. [014 - We Used to Sing a Song Together（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_n) -> [解](014_WeUsedToSingASongTogether.rb) : [解説](https://twitter.com/e869120/status/1382478816627478530)
