@@ -22,3 +22,4 @@ atcoderの典型90問のrubyによる解法集.
 16. 016
 17. 017
 18. [018 - Statue of Chokudai（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_r) -> [解](018_StatueOfChokudai.rb) : [解説](https://twitter.com/e869120/status/1384276005330690049)
+19. [019 - Pick Two（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_s) -> [解](019_PickTwo.rb) : [解説](https://twitter.com/e869120/status/1384638694162780166)
