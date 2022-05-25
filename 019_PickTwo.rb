@@ -17,7 +17,7 @@ end
     cl, cr = j, j + i
     dp[cl][cr] = [dp[cl][cr], dp[cl + 1][cr - 1] + (A[cl] - A[cr]).abs].min
     (cl..(cr - 1)).each do |k|
-     dp[cl][cr] = [dp[cl][cr], dp[cl][k] + dp[k + 1][cr]].min
+    dp[cl][cr] = [dp[cl][cr], dp[cl][k] + dp[k + 1][cr]].min
     end
   end
 end
