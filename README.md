@@ -25,3 +25,4 @@ atcoderの典型90問のrubyによる解法集.
 19. [019 - Pick Two（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_s) -> [解](019_PickTwo.rb) : [解説](https://twitter.com/e869120/status/1384638694162780166)
 20. [020 - Log Inequality（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_t) -> [解](020_LogInequality.rb) : [解説](https://twitter.com/e869120/status/1385001057512693762)
 21. [021 - Come Back in One Piece（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_u) -> [解](021_ComeBackInOnePiece.rb) : [解説](https://twitter.com/e869120/status/1385363292739104775)
+22. [022 - Cubic Cake（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_v) -> [解](022_CubicCake.rb) : [解説](https://twitter.com/e869120/status/1385725481920520193)
