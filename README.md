@@ -29,3 +29,4 @@ atcoderの典型90問のrubyによる解法集.
 23. 023
 24. [024 - Select +／- One（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_x) -> [解](024_Select+／-One.rb) : [解説](https://twitter.com/e869120/status/1386814047081746432)
 25. [025 - Digit Product Equation（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_y) -> [解](025_DigitProductEquation.rb) : [解説](https://twitter.com/e869120/status/1387175538544975872)
+26. [026 - Independent Set on a Tree（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_z) -> [解](026_IndependentSetOnATree.rb) : [解説](https://twitter.com/e869120/status/1387538790017769474)
