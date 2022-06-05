@@ -32,3 +32,7 @@ atcoderの典型90問のrubyによる解法集.
 26. [026 - Independent Set on a Tree（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_z) -> [解](026_IndependentSetOnATree.rb) : [解説](https://twitter.com/e869120/status/1387538790017769474)
 27. [027 - Sign Up Requests （★2）](https://atcoder.jp/contests/typical90/tasks/typical90_aa) -> [解](027_SignUpRequests.rb) : [解説](https://twitter.com/e869120/status/1387901052683386880)
 28. [028 - Cluttered Paper（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ab) -> [解](028_ClutteredPaper.rb) : [解説](https://twitter.com/e869120/status/1388262816101007363)
+29. 029
+30. 030
+31. 031
+32. [032 - AtCoder Ekiden（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_af) -> [解](032_AtCoderEkiden.rb) : [解説](https://twitter.com/e869120/status/1390074137192767489)
