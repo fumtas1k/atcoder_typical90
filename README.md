@@ -36,3 +36,4 @@ atcoderの典型90問のrubyによる解法集.
 30. 030
 31. 031
 32. [032 - AtCoder Ekiden（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_af) -> [解](032_AtCoderEkiden.rb) : [解説](https://twitter.com/e869120/status/1390074137192767489)
+33. [033 - Not Too Bright（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_ag) -> [解](033_NotTooBright.rb) : [解説](https://twitter.com/e869120/status/1390436977808351234)
