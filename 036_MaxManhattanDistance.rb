@@ -12,8 +12,8 @@ XY.each do |x, y|
   X << x - y
   Y << x + y
 end
-x_end = [X.min, X.max]
-y_end = [Y.min, Y.max]
+x_end = X.minmax
+y_end = Y.minmax
 
 ans = QUERY.map do |i|
   x, y = X[i], Y[i]
