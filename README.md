@@ -42,3 +42,4 @@ atcoderの典型90問のrubyによる解法集.
 36. [036 - Max Manhattan Distance（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_aj) -> [解](036_MaxManhattanDistance.rb) : [解説](https://twitter.com/e869120/status/1391886390091075586)
 37. 037
 38. [038 - Large LCM（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_al) -> [解](038_LargeLCM.rb) : [解説](https://twitter.com/e869120/status/1392612322410057729)
+39. [039 - Tree Distance（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_am) -> [解](039_TreeDistance.rb) : [解説](https://twitter.com/e869120/status/1392974101061378049)
