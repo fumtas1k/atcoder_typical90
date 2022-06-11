@@ -37,7 +37,7 @@ atcoderの典型90問のrubyによる解法集.
 31. 031
 32. [032 - AtCoder Ekiden（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_af) -> [解](032_AtCoderEkiden.rb) : [解説](https://twitter.com/e869120/status/1390074137192767489)
 33. [033 - Not Too Bright（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_ag) -> [解](033_NotTooBright.rb) : [解説](https://twitter.com/e869120/status/1390436977808351234)
-34. [034 - There are few types of elements（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ah) -> [解](034_ThereAreFewTypesOfElements.rb) : [解説]
+34. [034 - There are few types of elements（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ah) -> [解](034_ThereAreFewTypesOfElements.rb) : [解説](https://twitter.com/e869120/status/1390798852299448322)
 35. 035
 36. [036 - Max Manhattan Distance（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_aj) -> [解](036_MaxManhattanDistance.rb) : [解説](https://twitter.com/e869120/status/1391886390091075586)
 37. 037
