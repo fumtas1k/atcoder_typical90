@@ -43,3 +43,6 @@ atcoderの典型90問のrubyによる解法集.
 37. 037
 38. [038 - Large LCM（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_al) -> [解](038_LargeLCM.rb) : [解説](https://twitter.com/e869120/status/1392612322410057729)
 39. [039 - Tree Distance（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_am) -> [解](039_TreeDistance.rb) : [解説](https://twitter.com/e869120/status/1392974101061378049)
+40. 040
+41. 041
+42. [042 - Multiple of 9（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ap) -> [解](042_MultipleOf9.rb) : [解説](https://twitter.com/e869120/status/1394423616805097477)
