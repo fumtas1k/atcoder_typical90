@@ -46,3 +46,5 @@ atcoderの典型90問のrubyによる解法集.
 40. 040
 41. 041
 42. [042 - Multiple of 9（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ap) -> [解](042_MultipleOf9.rb) : [解説](https://twitter.com/e869120/status/1394423616805097477)
+43. 043
+44. [044 - Shift and Swapping（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ar) -> [解](044_ShiftAndSwapping.rb) : [解説](https://twitter.com/e869120/status/1395148057730187265)
