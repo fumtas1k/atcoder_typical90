@@ -13,7 +13,7 @@ TXY.each do |t, x, y|
   when 1
     A[c_x], A[c_y] = A[c_y], A[c_x]
   when 2
-	shift += 1
+    shift += 1
   when 3
     ans << A[c_x]
   end
