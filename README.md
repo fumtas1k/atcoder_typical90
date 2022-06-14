@@ -52,3 +52,5 @@ atcoderの典型90問のrubyによる解法集.
 | [044 - Shift and Swapping（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ar) | 見かけ上の変化をメモ | [解](044_ShiftAndSwapping.rb) | [解説](https://twitter.com/e869120/status/1395148057730187265) |
 | 045 | bitDP法 |||
 | [046 - I Love 46（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_at) | 同じものをまとめる, 剰余 | [解](046_ILove46.rb) | [解説](https://twitter.com/e869120/status/1395873457259225091) |
+| 047 ||||
+| [048 - I will not drop out（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_av) | 上界(下界)見積り | [解](048_IWillNotDropOut.rb) | [解説](https://twitter.com/e869120/status/1396960059796582400) |
