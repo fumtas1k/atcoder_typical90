@@ -56,3 +56,4 @@ atcoderの典型90問のrubyによる解法集.
 | [048 - I will not drop out（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_av) | 上界(下界)見積り | [解](048_IWillNotDropOut.rb) | [解説](https://twitter.com/e869120/status/1396960059796582400) |
 | 049 ||||
 | [050 - Stair Jump（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ax) | DP法 |[解](050_StairJump.rb)| [解説](https://twitter.com/e869120/status/1397684795560259586)|
+| [051 - Typical Shop（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ay) | 半分全列挙 |[解](051_TypicalShop.rb)|[解説](https://twitter.com/e869120/status/1398046858933538819)|
