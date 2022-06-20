@@ -58,3 +58,5 @@ atcoderの典型90問のrubyによる解法集.
 | [050 - Stair Jump（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ax) | DP法 |[解](050_StairJump.rb)| [解説](https://twitter.com/e869120/status/1397684795560259586)|
 | [051 - Typical Shop（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ay) | 半分全列挙 |[解](051_TypicalShop.rb)|[解説](https://twitter.com/e869120/status/1398046858933538819)|
 | [052 - Dice Product（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_az) | 因数分解 | [解](052_DiceProduct.rb) | [解説](https://twitter.com/e869120/status/1398409831044632576) |
+| 053 ||||
+| [054 - Takahashi Number（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bb) | 最短経路問題, 幅優先探索, グラフの辺数削減, エルデシュ数　| [解](054_TakahashiNumber.rb) | [解説](https://twitter.com/e869120/status/1399496993014116352) |
