@@ -62,3 +62,4 @@ atcoderの典型90問のrubyによる解法集.
 | [054 - Takahashi Number（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bb) | 最短経路問題, 幅優先探索, グラフの辺数削減, エルデシュ数　| [解](054_TakahashiNumber.rb) | [解説](https://twitter.com/e869120/status/1399496993014116352) |
 | [055 - Select 5（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bc) | 定数倍 | [解](055_Select5.rb) | [解説](https://twitter.com/e869120/status/1399859200046505984) |
 | [056 - Lucky Bag（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bd) | 動的計画法, DP法, DP復元 | [解](056_LuckyBag.rb) | [解説](https://twitter.com/e869120/status/1400221404109230082) |
+| [057 - Flip Flap（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_be) | 掃き出し法 | [解](057_FlipFlap.rb) |[解説](https://twitter.com/e869120/status/1400584377902399490) |
