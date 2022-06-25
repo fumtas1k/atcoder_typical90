@@ -64,3 +64,5 @@ atcoderの典型90問のrubyによる解法集.
 | [056 - Lucky Bag（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bd) | 動的計画法, DP法, DP復元 | [解](056_LuckyBag.rb) | [解説](https://twitter.com/e869120/status/1400221404109230082) |
 | [057 - Flip Flap（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_be) | 掃き出し法 | [解](057_FlipFlap.rb) |[解説](https://twitter.com/e869120/status/1400584377902399490) |
 | [058 - Original Calculator（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bf) |  | [解](058_OriginalCalculator.rb) | [解説](https://twitter.com/e869120/status/1400584377902399490) |
+| 059 ||||
+| [060 - Chimera（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bh) | 最長増加部分列(LIS), 二分探索法 | [解](060_Chimera.rb) | [解説](https://twitter.com/e869120/status/1402034055734980608) |
