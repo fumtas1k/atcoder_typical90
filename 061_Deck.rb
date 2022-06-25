@@ -4,7 +4,7 @@
 Q = gets.to_i
 TX = Array.new(Q) { gets.split.map(&:to_i) }
 
-# rubyデフォルト配列
+# rubyデフォルト配列使用コード
 cards, ans = [], []
 TX.each do |t, x|
   case t
