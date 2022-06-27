@@ -17,7 +17,7 @@ N.times do |i|
 end
 
 ans = []
-while !queue.empty?
+until queue.empty?
   pos = queue.shift
   ans << pos + 1
   G[pos].each do |i|
