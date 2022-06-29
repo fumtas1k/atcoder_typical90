@@ -69,3 +69,4 @@ atcoderの典型90問のrubyによる解法集.
 | [061 - Deck（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bi) | deque | [解](061_Deck.rb) | [解説](https://twitter.com/e869120/status/1402395219287371779) |
 | [062 - Paint All（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bj) | 幅優先探索, 後ろから考える | [解](062_PaintAll.rb) | [解説](https://twitter.com/e869120/status/1402758934268571648) |
 | [063 - Monochromatic Subgrid（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bk) | bit全探索 | [解](063_MonochromaticSubgrid.rb) | [解説](https://twitter.com/e869120/status/1403121388773249024) |
+| [064 - Uplift（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bl) | 階差 | [解](064_Uplift.rb) | [解説](https://twitter.com/e869120/status/1403483256234799105) |
