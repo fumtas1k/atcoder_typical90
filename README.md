@@ -70,3 +70,5 @@ atcoderの典型90問のrubyによる解法集.
 | [062 - Paint All（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bj) | 幅優先探索, 後ろから考える | [解](062_PaintAll.rb) | [解説](https://twitter.com/e869120/status/1402758934268571648) |
 | [063 - Monochromatic Subgrid（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bk) | bit全探索 | [解](063_MonochromaticSubgrid.rb) | [解説](https://twitter.com/e869120/status/1403121388773249024) |
 | [064 - Uplift（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bl) | 階差 | [解](064_Uplift.rb) | [解説](https://twitter.com/e869120/status/1403483256234799105) |
+| 065 ||||
+| [066 - Various Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bn) | 期待値の線形性 | [解](066_VariousArrays.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/066a.cpp) |
