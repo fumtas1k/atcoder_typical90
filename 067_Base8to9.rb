@@ -4,8 +4,7 @@
 N, K = gets.chomp.split
 puts K.to_i.times.reduce(N) {|n, _| n.to_i(8).to_s(9).gsub("8", "5") }
 
-
-# rubyのメソッドを極力使わずに解凍した場合
+# rubyのメソッドを極力使わない解答
 n, k = gets.chomp.split
 k = k.to_i
 
@@ -25,7 +24,7 @@ def long_to_base9(num)
   ans.reverse.join
 end
 
-k.times do |i|
+k.times do
   n = long_to_base9(base8_to_long(n))
   n.size.times do |i|
     n[i] = "5" if n[i] == "8"
