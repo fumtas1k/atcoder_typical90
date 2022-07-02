@@ -46,15 +46,13 @@ Q.times do |i|
   t, x, y, v = T[i], X[i], Y[i], V[i]
   if t == 0
     uf.unite(x, y)
+  # x~yまでの値が定まるかをunionfindで判定
+  elsif uf.same?(x, y)
+    diff = v - A[x]
+    # ti = 0の時、viを隣と分け合うため変化量は偶数番目と奇数番目で正負が異なる
+    ans << ((x - y).abs.even? ? A[y] + diff : A[y] - diff)
   else
-    # x~yまでの値が定まるかをunionfindで判定
-    if uf.same?(x, y)
-      diff = v - A[x]
-      # ti = 0の時、viを隣と分け合うため変化量は偶数番目と奇数番目で正負が異なる
-      ans << ((x - y).abs % 2 == 0 ? A[y] + diff : A[y] - diff)
-    else
-      ans << "Amiguous"
-    end
+    ans << "Ambiguous"
   end
 end
 
