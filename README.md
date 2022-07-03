@@ -74,3 +74,4 @@ atcoderの典型90問のrubyによる解法集.
 | [066 - Various Arrays（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bn) | 期待値の線形性 | [解](066_VariousArrays.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/066a.cpp) |
 | [067 - Base 8 to 9（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bo) |  | [解](067_Base8to9.rb) | [解説](https://twitter.com/e869120/status/1404931743820357633) |
 | [068 - Paired Information（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bp) |　クエリ先読み, Union-Find | [解](068_PairedInformation.rb) | [解説]() |
+| [069 - Colorful Blocks 2（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bq) | 繰り返し2乗法 | [解](069_ColorfulBlocks2.rb) | [解説](https://twitter.com/e869120/status/1405298187384999938) |
