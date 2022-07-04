@@ -76,3 +76,5 @@ atcoderの典型90問のrubyによる解法集.
 | [068 - Paired Information（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bp) |　クエリ先読み, Union-Find | [解](068_PairedInformation.rb) | [解説]() |
 | [069 - Colorful Blocks 2（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bq) | 繰り返し2乗法 | [解](069_ColorfulBlocks2.rb) | [解説](https://twitter.com/e869120/status/1405298187384999938) |
 | [070 - Plant Planning（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_br) | マンハッタン距離, 独立で考える | [解](070_PlantPlanning.rb) | [解説](https://twitter.com/e869120/status/1406020809492090882) |
+| 071 ||||
+| [072 - Loop Railway Plan（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bt) | バックトラック, 再帰関数, "何通りか"の感覚 | [解](072_LoopRailwayPlan.rb) | [解説](https://twitter.com/e869120/status/1407109731546636289) |
