@@ -78,4 +78,7 @@ atcoderの典型90問のrubyによる解法集.
 | [070 - Plant Planning（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_br) | マンハッタン距離, 独立で考える | [解](070_PlantPlanning.rb) | [解説](https://twitter.com/e869120/status/1406020809492090882) |
 | 071 ||||
 | [072 - Loop Railway Plan（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bt) | バックトラック, 再帰関数, "何通りか"の感覚 | [解](072_LoopRailwayPlan.rb) | [解説](https://twitter.com/e869120/status/1407109731546636289) |
-| (073 - We Need Both a and b（★5）)[https://atcoder.jp/contests/typical90/tasks/typical90_bu] | 木DP, 動的計画法 | [解](073_WeNeedBothAandB.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/073.cpp) |
+| [073 - We Need Both a and b（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bu) | 木DP, 動的計画法 | [解](073_WeNeedBothAandB.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/073.cpp) |
+| [074 - ABC String 2（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bv) | 特殊ケースを考える, 不変量を考える | [解](074_ABCString2.rb) | [解説](https://twitter.com/e869120/status/1407833847413178372) |
+| [075 - Magic For Balls（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bw) | 素因数分解 | [解](075_MagicForBalls.rb) | [解説](https://twitter.com/e869120/status/1408195203538690048) |
+| [076 - Cake Cut（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bx) | 円環を列にして二倍にする(累積和), 尺取法 | [解](076_CakeCut.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/076.cpp) |
