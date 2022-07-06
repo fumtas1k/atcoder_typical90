@@ -10,8 +10,8 @@ M.times do
 end
 
 ans = N.times.count do |i|
-    j = G[i].sort.bsearch_index { _1 >= i } || G[i].size
-    j == 1
-  end
+  j = G[i].sort.bsearch_index { _1 >= i } || G[i].size
+  j == 1
+end
 
 puts ans
