@@ -82,3 +82,5 @@ atcoderの典型90問のrubyによる解法集.
 | [074 - ABC String 2（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bv) | 特殊ケースを考える, 不変量を考える | [解](074_ABCString2.rb) | [解説](https://twitter.com/e869120/status/1407833847413178372) |
 | [075 - Magic For Balls（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bw) | 素因数分解 | [解](075_MagicForBalls.rb) | [解説](https://twitter.com/e869120/status/1408195203538690048) |
 | [076 - Cake Cut（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bx) | 円環を列にして二倍にする(累積和), 尺取法 | [解](076_CakeCut.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/076.cpp) |
+| 077 ||||
+| [078 - Easy Graph Problem（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bz) | グラフの基本 | [解](078_EasyGraphProblem.rb) | [解説](https://twitter.com/e869120/status/1409644684561944579) |
