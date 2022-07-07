@@ -1,5 +1,5 @@
 # 079 - Two by Two（★3）
-#
+# 操作順序によらない
 
 H, W = gets.split.map(&:to_i)
 A = Array.new(H) { gets.split.map(&:to_i) }

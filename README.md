@@ -84,4 +84,4 @@ atcoderの典型90問のrubyによる解法集.
 | [076 - Cake Cut（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_bx) | 円環を列にして二倍にする(累積和), 尺取法 | [解](076_CakeCut.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/076.cpp) |
 | 077 ||||
 | [078 - Easy Graph Problem（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bz) | グラフの基本 | [解](078_EasyGraphProblem.rb) | [解説](https://twitter.com/e869120/status/1409644684561944579) |
-| [079 - Two by Two（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ca) |  | [解](079_TwobyTwo.rb) | [解説](https://twitter.com/e869120/status/1410007233262276612) |
+| [079 - Two by Two（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ca) | 操作順序によらない | [解](079_TwobyTwo.rb) | [解説](https://twitter.com/e869120/status/1410007233262276612) |
