@@ -85,3 +85,4 @@ atcoderの典型90問のrubyによる解法集.
 | 077 ||||
 | [078 - Easy Graph Problem（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bz) | グラフの基本 | [解](078_EasyGraphProblem.rb) | [解説](https://twitter.com/e869120/status/1409644684561944579) |
 | [079 - Two by Two（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ca) | 操作順序によらない | [解](079_TwobyTwo.rb) | [解説](https://twitter.com/e869120/status/1410007233262276612) |
+| [080 - Let's Share Bit（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_cb) | 包除原理, bit全探索 | [解](080_LetsShareBit.rb) | [解説](https://twitter.com/e869120/status/1410368312760934404) |
