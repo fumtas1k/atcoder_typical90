@@ -4,7 +4,7 @@
 MOD = 10 ** 9 + 7
 
 L, R = gets.split.map(&:to_i)
-cnt = Math.log(L, 10).to_i + 1
+cnt = Math.log(L, 10).to_floor + 1
 ans = 0
 l, r = L, -1
 while r != R
