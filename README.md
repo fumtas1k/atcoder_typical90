@@ -88,3 +88,5 @@ atcoderの典型90問のrubyによる解法集.
 | [080 - Let's Share Bit（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_cb) | 包除原理, bit全探索 | [解](080_LetsShareBit.rb) | [解説](https://twitter.com/e869120/status/1410368312760934404) |
 | 081 ||||
 | [082 - Counting Numbers（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cd) | 数列の和の公式, 部分問題に分解 | [解](082_CountingNumbers.rb) | [解説](https://twitter.com/e869120/status/1411094412319330305) |
+| 083 ||||
+| [084 - There are two types of characters（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cf) |  | [解](084_ThereAreTwoTypesOfCharacters.rb) | [解説](https://twitter.com/e869120/status/1412179495868534784) |
