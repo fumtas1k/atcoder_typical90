@@ -23,7 +23,6 @@ N = gets.to_i
 S = gets.chomp.chars
 
 O, X = [0], [0]
-
 (1..N).each do |i|
   if S[i - 1] == "o"
     O[i] = i
