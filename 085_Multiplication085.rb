@@ -15,8 +15,8 @@ size.times do |i|
   (i...size).each do |j|
     a, b = divisors[i], divisors[j]
     c, remain = K.divmod(a * b)
-    next if remain != 0 || a * b * c != K
-    next if c < b
+    break if c < b
+    next if remain != 0
     ans += 1
   end
 end
