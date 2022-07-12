@@ -90,3 +90,4 @@ atcoderの典型90問のrubyによる解法集.
 | [082 - Counting Numbers（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cd) | 数列の和の公式, 部分問題に分解 | [解](082_CountingNumbers.rb) | [解説](https://twitter.com/e869120/status/1411094412319330305) |
 | 083 ||||
 | [084 - There are two types of characters（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cf) |  | [解](084_ThereAreTwoTypesOfCharacters.rb) | [解説](https://twitter.com/e869120/status/1412179495868534784) |
+| [085 - Multiplication 085（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_cg) | 全件探索, 約数列挙 | [解](085_Multiplication085.rb) | [解説](https://twitter.com/e869120/status/1412541885160189952) |
