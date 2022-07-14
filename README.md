@@ -92,3 +92,4 @@ atcoderの典型90問のrubyによる解法集.
 | [084 - There are two types of characters（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_cf) |  | [解](084_ThereAreTwoTypesOfCharacters.rb) | [解説](https://twitter.com/e869120/status/1412179495868534784) |
 | [085 - Multiplication 085（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_cg) | 全件探索, 約数列挙 | [解](085_Multiplication085.rb) | [解説](https://twitter.com/e869120/status/1412541885160189952) |
 | [086 - Snuke's Favorite Arrays（★5](https://atcoder.jp/contests/typical90/tasks/typical90_ch) | bit全探索, bit毎に独立に考える | [解](086_Snuke'sFavoriteArrays.rb) | [解説](https://twitter.com/e869120/status/1412904274900754441) |
+| [087 - Chokudai's Demand（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ci) | ワーシャルフロイド法, 二分探索法 | [解](087_ChokudaisDemand.rb) | [解説](https://twitter.com/e869120/status/1413266660862009348) |
