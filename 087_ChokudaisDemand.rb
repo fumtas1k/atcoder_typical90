@@ -37,12 +37,13 @@ end
 
 l = get_border(K)
 r = get_border(K - 1)
-ans = if l && r
-  r - l
-elsif !l && !r
-  0
-else
-  "Infinity"
-end
+ans =
+  if l && r
+    r - l
+  elsif !l && !r
+    0
+  else
+    "Infinity"
+  end
 
 puts ans
