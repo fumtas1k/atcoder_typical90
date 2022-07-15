@@ -8,7 +8,7 @@ N = gets.to_i
 def modpow(a, b, m)
   p, q = 1, a
   while b != 0
-    if b % 2 != 0
+    if b & 1 == 1
       p *= q
       p %= m
     end
