@@ -20,7 +20,7 @@ atcoderの典型90問のrubyによる解法集.
 | [012 - Red Painting（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_l) |Union-Find| [解](012_RedPainting.rb) | [解説](https://twitter.com/e869120/status/1381739128291614720) |
 | [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m) | ダイクストラ法 | [解](013_Passing.rb) | [解説](https://twitter.com/e869120/status/1382101716066127872) |
 | [014 - We Used to Sing a Song Together（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_n) | ソート, 貪欲法 | [解](014_WeUsedToSingASongTogether.rb) | [解説](https://twitter.com/e869120/status/1382478816627478530) |
-| 015 ||||
+| [015 - Don't be too close（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_o) | 調和級数, 逆元, フェルマーの小定理 | [解](015_DontBeTooClose.rb) | [解説](https://twitter.com/e869120/status/1382827276673306624) |
 | 016 |全探索|||
 | 017 |余事象, bit全探索|||
 | [018 - Statue of Chokudai（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_r) | 三角関数 | [解](018_StatueOfChokudai.rb) | [解説](https://twitter.com/e869120/status/1384276005330690049) |
