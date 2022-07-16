@@ -16,7 +16,7 @@ atcoderの典型90問のrubyによる解法集.
 | [008 - AtCounter（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_h) | 状態DP法 | [解](008_AtCounter.rb) | [解説](https://twitter.com/e869120/status/1379927227739987972/photo/1) |
 | 009 |二分探索法, 偏角ソート, 真ん中決め打ち|||
 | [010 - Score Sum Queries（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_j) | 累積和 | [解](010_ScoreSumQueries.rb) | [解説](https://twitter.com/e869120/status/1380652465834532865) |
-| 011 |DP法, 締め切りが早い順|||
+| [011 - Gravy Jobs（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_k) | DP法, 締め切りが早い順 | [解](011_GravyJobs.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/011-03.cpp) |
 | [012 - Red Painting（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_l) |Union-Find| [解](012_RedPainting.rb) | [解説](https://twitter.com/e869120/status/1381739128291614720) |
 | [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m) | ダイクストラ法 | [解](013_Passing.rb) | [解説](https://twitter.com/e869120/status/1382101716066127872) |
 | [014 - We Used to Sing a Song Together（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_n) | ソート, 貪欲法 | [解](014_WeUsedToSingASongTogether.rb) | [解説](https://twitter.com/e869120/status/1382478816627478530) |
