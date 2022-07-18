@@ -93,3 +93,4 @@ atcoderの典型90問のrubyによる解法集.
 | [085 - Multiplication 085（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_cg) | 全件探索, 約数列挙 | [解](085_Multiplication085.rb) | [解説](https://twitter.com/e869120/status/1412541885160189952) |
 | [086 - Snuke's Favorite Arrays（★5](https://atcoder.jp/contests/typical90/tasks/typical90_ch) | bit全探索, bit毎に独立に考える | [解](086_Snuke'sFavoriteArrays.rb) | [解説](https://twitter.com/e869120/status/1412904274900754441) |
 | [087 - Chokudai's Demand（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ci) | ワーシャルフロイド法, 二分探索法 | [解](087_ChokudaisDemand.rb) | [解説](https://twitter.com/e869120/status/1413266660862009348) |
+| [088 - Similar but Different Ways（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_cj) | 鳩ノ巣原理, DFS | [解](088_SimilarButDifferentWays.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/088.cpp) |
