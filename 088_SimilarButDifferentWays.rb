@@ -18,7 +18,7 @@ end
 def dfs(pos, cards = [])
   return if @flag
   if pos == N
-    if cards.size != 0
+    if cards.empty?
       sum = cards.sum { A[_1] }
       # indexからカード番号に変換(+1)
       @ans[sum] << cards.map(&:succ)
