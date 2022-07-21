@@ -54,7 +54,7 @@ atcoderの典型90問のrubyによる解法集.
 | [046 - I Love 46（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_at) | 同じものをまとめる, 剰余 | [解](046_ILove46.rb) | [解説](https://twitter.com/e869120/status/1395873457259225091) |
 | 047 ||||
 | [048 - I will not drop out（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_av) | 上界(下界)見積り | [解](048_IWillNotDropOut.rb) | [解説](https://twitter.com/e869120/status/1396960059796582400) |
-| 049 ||||
+| [049 - Flip Digits 2（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_aw) | 最小全域木, Union-Find, クラスカル法 | [解](049_FlipDigits2.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/049.cpp) |
 | [050 - Stair Jump（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ax) | DP法 |[解](050_StairJump.rb)| [解説](https://twitter.com/e869120/status/1397684795560259586)|
 | [051 - Typical Shop（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ay) | 半分全列挙 |[解](051_TypicalShop.rb)|[解説](https://twitter.com/e869120/status/1398046858933538819)|
 | [052 - Dice Product（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_az) | 因数分解 | [解](052_DiceProduct.rb) | [解説](https://twitter.com/e869120/status/1398409831044632576) |
