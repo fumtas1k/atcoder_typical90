@@ -42,7 +42,7 @@ atcoderの典型90問のrubyによる解法集.
 | [034 - There are few types of elements（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ah) | 尺取法 | [解](034_ThereAreFewTypesOfElements.rb) | [解説](https://twitter.com/e869120/status/1390798852299448322) |
 | 035 ||||
 | [036 - Max Manhattan Distance（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_aj) | マンハッタン距離 | [解](036_MaxManhattanDistance.rb) | [解説](https://twitter.com/e869120/status/1391886390091075586) |
-| 037 |セグメント木, DP法|||
+| [037 - Don't Leave the Spice（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ak) | スライド最大値(最小値), DP法, 動的計画法 | [解](037_DontLeaveTheSpice.rb) | [解説](https://twitter.com/e869120/status/1392248540882116610) |
 | [038 - Large LCM（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_al) | ユークリッド互除法 | [解](038_LargeLCM.rb) | [解説](https://twitter.com/e869120/status/1392612322410057729) |
 | [039 - Tree Distance（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_am) | 貢献度, 再帰関数 | [解](039_TreeDistance.rb) | [解説](https://twitter.com/e869120/status/1392974101061378049) |
 | 040 ||||
@@ -52,7 +52,7 @@ atcoderの典型90問のrubyによる解法集.
 | [044 - Shift and Swapping（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ar) | 見かけ上の変化をメモ | [解](044_ShiftAndSwapping.rb) | [解説](https://twitter.com/e869120/status/1395148057730187265) |
 | 045 | bitDP法 |||
 | [046 - I Love 46（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_at) | 同じものをまとめる, 剰余 | [解](046_ILove46.rb) | [解説](https://twitter.com/e869120/status/1395873457259225091) |
-| 047 ||||
+| [047 - Monochromatic Diagonal（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_au) |  | [解]() | [解説]() |
 | [048 - I will not drop out（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_av) | 上界(下界)見積り | [解](048_IWillNotDropOut.rb) | [解説](https://twitter.com/e869120/status/1396960059796582400) |
 | [049 - Flip Digits 2（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_aw) | 最小全域木, Union-Find, クラスカル法 | [解](049_FlipDigits2.rb) | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/049.cpp) |
 | [050 - Stair Jump（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ax) | DP法 |[解](050_StairJump.rb)| [解説](https://twitter.com/e869120/status/1397684795560259586)|
