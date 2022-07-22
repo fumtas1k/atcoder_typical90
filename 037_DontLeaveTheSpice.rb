@@ -22,13 +22,8 @@ LRV.each_with_index do |(l, r, v), i|
       first = false
     end
 
-    while !deque.empty? && dp[i][deque[-1]] <= dp[i][cr]
-      deque.pop
-    end
-
-    while !deque.empty? && deque[0] < cl
-      deque.shift
-    end
+    deque.pop while !deque.empty? && dp[i][deque[-1]] <= dp[i][cr]
+    deque.shift while !deque.empty? && deque[0] < cl
 
     deque << cr
     val = dp[i][deque[0]]
