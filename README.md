@@ -48,7 +48,7 @@ atcoderの典型90問のrubyによる解法集.
 | 040 ||||
 | 041 ||||
 | [042 - Multiple of 9（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ap) |DP法| [解](042_MultipleOf9.rb) | [解説](https://twitter.com/e869120/status/1394423616805097477) |
-| 043 |拡張BFS|||
+| [043 - Maze Challenge with Lack of Sleep（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_aq) | 拡張BFS | [解](043_MazeChallengewithLackofSleep.rb) | [解説](https://twitter.com/e869120/status/1394787605099601923) |
 | [044 - Shift and Swapping（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_ar) | 見かけ上の変化をメモ | [解](044_ShiftAndSwapping.rb) | [解説](https://twitter.com/e869120/status/1395148057730187265) |
 | 045 | bitDP法 |||
 | [046 - I Love 46（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_at) | 同じものをまとめる, 剰余 | [解](046_ILove46.rb) | [解説](https://twitter.com/e869120/status/1395873457259225091) |
