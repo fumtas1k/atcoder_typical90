@@ -15,7 +15,7 @@ directs = [[1, 0], [0, 1], [-1, 0], [0, -1]]
 
 deq = [[sr, sc]]
 
-while !deq.empty?
+until deq.empty?
   r, c = deq.shift
   directs.each do |dr, dc|
     nr, nc = r + dr, c + dc
