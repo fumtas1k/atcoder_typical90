@@ -40,7 +40,7 @@ atcoderの典型90問のrubyによる解法集.
 | [032 - AtCoder Ekiden（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_af) | 順列全探索 | [解](032_AtCoderEkiden.rb) | [解説](https://twitter.com/e869120/status/1390074137192767489) |
 | [033 - Not Too Bright（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_ag) | 境界条件 | [解](033_NotTooBright.rb) | [解説](https://twitter.com/e869120/status/1390436977808351234) |
 | [034 - There are few types of elements（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ah) | 尺取法 | [解](034_ThereAreFewTypesOfElements.rb) | [解説](https://twitter.com/e869120/status/1390798852299448322) |
-| 035 ||||
+| [035 - Preserve Connectivity（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_ai) | 木DP, 最近共通祖先(LCA), 座標圧縮 | [解](035_PreserveConnectivity.rb) | [解説](https://twitter.com/e869120/status/1391218516129312768) |
 | [036 - Max Manhattan Distance（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_aj) | マンハッタン距離 | [解](036_MaxManhattanDistance.rb) | [解説](https://twitter.com/e869120/status/1391886390091075586) |
 | [037 - Don't Leave the Spice（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ak) | スライド最大値(最小値), DP法, 動的計画法 | [解](037_DontLeaveTheSpice.rb) | [解説](https://twitter.com/e869120/status/1392248540882116610) |
 | [038 - Large LCM（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_al) | ユークリッド互除法 | [解](038_LargeLCM.rb) | [解説](https://twitter.com/e869120/status/1392612322410057729) |
