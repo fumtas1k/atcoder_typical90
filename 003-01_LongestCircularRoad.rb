@@ -1,17 +1,17 @@
 # 003 - Longest Circular Road（★4）
-# 木の直径
+# 木の直径, bfs
 
 N = gets.to_i
-G = Hash.new {|hash, key| hash[key] = [] }
+G = Array.new(N) { [] }
 (N-1).times do |i|
-  a, b = gets.split.map(&:to_i)
+  a, b = gets.split.map { _1.to_i - 1 }
   G[a] << b
   G[b] << a
 end
 
 # startから各nodeの距離を計測し、[最短距離の最大値, そのindex]を返す
 def distance(start)
-  dist = [0]
+  dist = []
   dist[start] = 0
   log = [start]
 
@@ -27,8 +27,8 @@ def distance(start)
 end
 
 # 頂点1からの最短距離の最大値となる頂点
-_, maxid = distance(1)
+_, max_id = distance(0)
 
-# 頂点maxidから、最短距離の最大値 = 木の直径（最短距離の最大値）を求める
-max, _ = distance(maxid)
+# 頂点max_idから、木の直径（最短距離の最大値）を求める
+max, = distance(max_id)
 puts max + 1
