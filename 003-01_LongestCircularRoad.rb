@@ -30,5 +30,5 @@ end
 _, max_id = distance(0)
 
 # 頂点max_idから、木の直径（最短距離の最大値）を求める
-max, _ = distance(max_id)
+max, = distance(max_id)
 puts max + 1
