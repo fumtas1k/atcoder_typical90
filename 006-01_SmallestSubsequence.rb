@@ -1,5 +1,5 @@
 # 006 - Smallest Subsequence（★5）
-# 貪欲法
+# 貪欲法, 辞書順最小
 
 N, K = gets.split.map(&:to_i)
 S = gets.chomp.chars
