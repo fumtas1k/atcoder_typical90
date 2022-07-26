@@ -11,7 +11,7 @@ atcoderの典型90問のrubyによる解法集.
 | [003 - Longest Circular Road（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_c) | 木の直径 | [解1](003-01_LongestCircularRoad.rb), [解2](003-02_LongestCircularRoad.rb) | [解説](https://twitter.com/e869120/status/1377752658149175299/photo/1) |
 | [004 - Cross Sum（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_d) |包除原理 | [解](004_CrossSum.rb) | [解説](https://twitter.com/e869120/status/1378115289649348611/photo/1) |
 |005|桁DP法, ダブリング|||
-| [006 - Smallest Subsequence（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_f) | 貪欲法 | [解](006_SmallestSubsequence.rb) | [解説](https://twitter.com/e869120/status/1379202843622576130/photo/1) |
+| [006 - Smallest Subsequence（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_f) | 貪欲法 | [解1](006-01_SmallestSubsequence.rb), [解2](006-02_SmallestSubsequence.rb) | [解説](https://twitter.com/e869120/status/1379202843622576130/photo/1) |
 | [007 - CP Classes（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_g) | 二分探索法 | [解](007_CPClasses.rb) | [解説](https://twitter.com/e869120/status/1379565222541680644/photo/1) |
 | [008 - AtCounter（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_h) | 状態DP法 | [解](008_AtCounter.rb) | [解説](https://twitter.com/e869120/status/1379927227739987972/photo/1) |
 | 009 |二分探索法, 偏角ソート, 真ん中決め打ち|||
