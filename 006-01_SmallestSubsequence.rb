@@ -30,5 +30,4 @@ K.downto(1) do |i|
   end
 end
 
-
 puts ans

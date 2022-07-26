@@ -6,7 +6,6 @@ S = gets.chomp.chars
 # 使用されているアルファベットの辞書作成
 dict = S.uniq.sort
 
-
 # 1文字ずつ貪欲に求める
 ans = ""
 # Sのindex番号をposに代入. 0から開始
