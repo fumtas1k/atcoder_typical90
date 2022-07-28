@@ -14,5 +14,5 @@ CP.each do |c, p|
 end
 
 LR.each do |l, r|
-  puts [one[r] - one[l-1], two[r] - two[l-1]].join(" ")
+  puts [one, two].map { _1[r] - _1[l - 1] }.join(" ")
 end
