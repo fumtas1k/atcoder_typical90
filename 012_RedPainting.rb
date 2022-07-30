@@ -56,7 +56,7 @@ QUERY.each do |q|
   if q[0] == 1
     unite_red(*q[1, 2])
   else
-    ans << (same_rad?(*q[1, 4]) ? "Yes" : "No")
+    ans << (same_red?(*q[1, 4]) ? "Yes" : "No")
   end
 end
 
