@@ -21,7 +21,7 @@ atcoderの典型90問のrubyによる解法集.
 | [013 - Passing（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_m) | ダイクストラ法 | [解](013_Passing.rb) | [解説](https://twitter.com/e869120/status/1382101716066127872) |
 | [014 - We Used to Sing a Song Together（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_n) | ソート, 貪欲法 | [解](014_WeUsedToSingASongTogether.rb) | [解説](https://twitter.com/e869120/status/1382478816627478530) |
 | [015 - Don't be too close（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_o) | 調和級数, 逆元, フェルマーの小定理 | [解](015_DontBeTooClose.rb) | [解説](https://twitter.com/e869120/status/1382827276673306624) |
-| 016 |全探索|||
+| [016 - Minimum Coins（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_p) | 工夫した全探索 | [解](016_MinimumCoins.rb) | [解説](https://twitter.com/e869120/status/1383189464650981378/photo/1) |
 | 017 |余事象, bit全探索|||
 | [018 - Statue of Chokudai（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_r) | 三角関数 | [解](018_StatueOfChokudai.rb) | [解説](https://twitter.com/e869120/status/1384276005330690049) |
 | [019 - Pick Two（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_s) | 区間DP法 | [解](019_PickTwo.rb) | [解説](https://twitter.com/e869120/status/1384638694162780166) |
