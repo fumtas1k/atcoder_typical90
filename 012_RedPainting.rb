@@ -47,7 +47,7 @@ end
 def same_red?(ra, ca, rb, cb)
   ra, ca = ra - 1, ca - 1
   rb, cb = rb - 1, cb - 1
-  return false unless (@red[ra][ca] && @red[rb][cb])
+  return false unless @red[ra][ca] && @red[rb][cb]
   @uf.same?(ra * W + ca, rb * W + cb)
 end
 
