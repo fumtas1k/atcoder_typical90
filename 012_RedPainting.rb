@@ -2,17 +2,17 @@
 # Union-Find
 
 class UnionFind
-  attr_accessor :parent #, :relation
+  attr_accessor :parents #, :relations
 
   def initialize(n)
-    @parent = Array.new(n, &:itself)
-    # @relation = {}
-    # n.times { @relation[_1] = [_1] }
+    @parents = Array.new(n, &:itself)
+    # @relations = {}
+    # n.times { @relations[_1] = [_1] }
   end
 
   def root(u)
-    return u if u == parent[u]
-    parent[u] = root(parent[u])
+    return u if u == parents[u]
+    parents[u] = root(parents[u])
   end
 
   def same?(u, v)
@@ -22,8 +22,8 @@ class UnionFind
   def unite(u, v)
     _u, _v = root(u), root(v)
     return if _u == _v
-    # relation[_v] |= relation[_u]
-    parent[_u] = _v
+    # relations[_v] |= relations[_u]
+    parents[_u] = _v
   end
 end
 
@@ -34,29 +34,29 @@ QUERY = Array.new(Q) { gets.split.map(&:to_i) }
 @uf = UnionFind.new(H * W)
 
 def unite(r, c)
-  _r, _c = r - 1, c - 1
+  r, c = r - 1, c - 1
+  @red[r][c] = true
   [[1,0], [0,1], [-1,0], [0,-1]].each do |dr, dc|
-    nr, nc = _r + dr, _c + dc
+    nr, nc = r + dr, c + dc
     next if !nr.between?(0, H - 1) || !nc.between?(0, W - 1)
     next unless @red[nr][nc]
-    @uf.unite(_r * W + _c, nr * W + nc)
+    @uf.unite(r * W + c, nr * W + nc)
   end
-  @red[_r][_c] = true
 end
 
 def find(ra, ca, rb, cb)
-  _ra, _ca = ra - 1, ca - 1
-  _rb, _cb = rb - 1, cb - 1
-  return false unless (@red[_ra][_ca] && @red[_rb][_cb])
-  @uf.same?(_ra * W + _ca, _rb * W + _cb)
+  ra, ca = ra - 1, ca - 1
+  rb, cb = rb - 1, cb - 1
+  return false unless (@red[ra][ca] && @red[rb][cb])
+  @uf.same?(ra * W + ca, rb * W + cb)
 end
 
 ans = []
 QUERY.each do |q|
   if q[0] == 1
-    unite(*q[1..])
+    unite(*q[1, 2])
   else
-    ans << (find(*q[1..]) ? "Yes" : "No")
+    ans << (find(*q[1, 4]) ? "Yes" : "No")
   end
 end
 
