@@ -33,7 +33,7 @@ QUERY = Array.new(Q) { gets.split.map(&:to_i) }
 @red = Array.new(H) { [false] * W }
 @uf = UnionFind.new(H * W)
 
-def unite(r, c)
+def unite_red(r, c)
   r, c = r - 1, c - 1
   @red[r][c] = true
   [[1,0], [0,1], [-1,0], [0,-1]].each do |dr, dc|
@@ -44,7 +44,7 @@ def unite(r, c)
   end
 end
 
-def find(ra, ca, rb, cb)
+def same_red?(ra, ca, rb, cb)
   ra, ca = ra - 1, ca - 1
   rb, cb = rb - 1, cb - 1
   return false unless (@red[ra][ca] && @red[rb][cb])
@@ -54,9 +54,9 @@ end
 ans = []
 QUERY.each do |q|
   if q[0] == 1
-    unite(*q[1, 2])
+    unite_red(*q[1, 2])
   else
-    ans << (find(*q[1, 4]) ? "Yes" : "No")
+    ans << (same_rad?(*q[1, 4]) ? "Yes" : "No")
   end
 end
 
