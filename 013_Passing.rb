@@ -9,7 +9,6 @@ M.times do
   G[b - 1] << [a - 1, c]
 end
 
-
 def dijkstra(start)
   times = [10 ** 9] * N
   times[start] = 0
