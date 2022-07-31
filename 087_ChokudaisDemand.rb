@@ -15,7 +15,7 @@ def count_number(x)
   # ワーシャルフロイド法
   N.times do |k|
     N.times do |i|
-      next k == i
+      next if k == i
       N.times do |j|
         dist[i][j] = [dist[i][j], dist[i][k] + dist[k][j]].min
       end
