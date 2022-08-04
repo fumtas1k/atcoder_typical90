@@ -13,7 +13,7 @@ end
 
 # 2つずつ消していくので区間は偶数
 3.step(2 * N - 1, 2) do |i|
-  (0...(2 * N - i)).each do |j|
+  (2 * N - i).times do |j|
     cl, cr = j, j + i
     dp[cl][cr] = [dp[cl][cr], dp[cl + 1][cr - 1] + (A[cl] - A[cr]).abs].min
     (cl..(cr - 1)).each do |k|
