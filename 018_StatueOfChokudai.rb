@@ -6,7 +6,7 @@ L, X, Y = gets.split.map(&:to_i)
 Q = gets.to_i
 E = Array.new(Q) { gets.to_i }
 
-angles = E.map do |t|
+def angle(t)
   y = - Math.sin(2 * Math::PI * t / T) * L / 2
   z = (1 - Math.cos(2 * Math::PI * t / T)) * L / 2
   dist = Math.sqrt(X ** 2 + (Y - y) ** 2)
@@ -14,4 +14,4 @@ angles = E.map do |t|
   Math.atan2(z, dist) * 180 / Math::PI
 end
 
-puts angles
+puts E.map(&method(:angle))
