@@ -10,30 +10,30 @@ M.times do
   BACKTO[b] << a
 end
 
-def dfs(pos)
+def dfs1(pos)
   return if @used[pos]
   @used[pos] = true
-  GOTO[pos].each { dfs(_1) }
+  GOTO[pos].each { dfs1(_1) }
   @log << pos
 end
 
 def dfs2(pos)
-  return if @used[pos]
+  return 0 if @used[pos]
   @used[pos] = true
-  @cnt += 1
-  BACKTO[pos].each { dfs2(_1) }
+  cnt = 1
+  BACKTO[pos].each { cnt += dfs2(_1) }
+  cnt
 end
 
 @used = [false] * N
 @log = []
-N.times { dfs(_1) }
+N.times { dfs1(_1) }
 
 @used = [false] * N
 ans = 0
-@log.reverse.each do |pos|
-  @cnt = 0
-  dfs2(pos)
-  ans += @cnt * (@cnt - 1) / 2
+ans = @log.reverse.sum do |pos|
+  cnt = dfs2(pos)
+  cnt * (cnt - 1) / 2
 end
 
 puts ans
