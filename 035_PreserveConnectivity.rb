@@ -11,7 +11,7 @@ end
 
 BITS = N.bit_length
 # ダブリング用
-@par = Array.new(BITS + 1) { [0] * N }
+@par = Array.new(BITS) { [0] * N }
 # 頂点0からの深さ
 @depth = [0] * N
 # dfs順の番号をメモ
@@ -20,7 +20,7 @@ BITS = N.bit_length
 
 def build_tree(pos, pre)
   @par[0][pos] = pre
-  @id[pos] += @k_id
+  @id[pos] = @k_id
   @k_id += 1
 
   G[pos].each do |i|
@@ -33,7 +33,7 @@ end
 build_tree(0, 0)
 
 # ダブリング
-(1..BITS).each do |i|
+(1...BITS).each do |i|
   N.times do |j|
     @par[i][j] = @par[i - 1][@par[i - 1][j]]
   end
@@ -49,6 +49,7 @@ def lca(va, vb)
 
   return va if va == vb
   (BITS - 1).downto(0) do |i|
+    # 2のi乗個上の頂点ではなく1個上の頂点が知るため
     next if @par[i][va] == @par[i][vb]
     va = @par[i][va]
     vb = @par[i][vb]
@@ -66,7 +67,8 @@ Q.times do |i|
   v = kv.map(&:pred).sort_by { @id[_1] }
 
   k.times do |j|
-    # v[j]までの深さ から v[(j + 1) % k]との最近共通祖先までの深さを引くと変の数が求められる
+    # v[j]までの深さ から v[(j + 1) % k]との
+    # 最近共通祖先までの深さを引くと辺の数が求められる
     ans[i] += @depth[v[j]]
     ans[i] -= @depth[lca(v[j], v[(j + 1) % k])]
   end
