@@ -24,14 +24,10 @@ LRV.each_with_index do |(l, r, v), i|
     end
 
     # crがmax_idxsの右端(最小)になるよう設定
-    while !max_idxs.empty? && dp[i][max_idxs[-1]] <= dp[i][cr]
-      max_idxs.pop
-    end
+    max_idxs.pop while !max_idxs.empty? && dp[i][max_idxs[-1]] <= dp[i][cr]
 
     # clよりindexが小さいものは候補とならないので取り除く
-    while !max_idxs.empty? && max_idxs[0] < cl
-      max_idxs.shift
-    end
+    max_idxs.shift while !max_idxs.empty? && max_idxs[0] < cl
 
     max_idxs << cr
     val = dp[i][max_idxs[0]]
