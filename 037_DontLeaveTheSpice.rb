@@ -9,7 +9,7 @@ dp[0][0] = 0
 
 LRV.each_with_index do |(l, r, v), i|
   # スライド最大値を使用して区間の最大値を求める
-  deque = []
+  max_idxs = []
   first = true
   (W + 1).times do |j|
     dp[i + 1][j] = dp[i][j]
@@ -18,15 +18,19 @@ LRV.each_with_index do |(l, r, v), i|
     cr = [0, j - l].max
 
     if first
-      deque = [*cl..cr].sort_by { - dp[i][_1] }
+      # max_idxsの左端がdp[i]のcl~cr区間最大値
+      max_idxs = [*cl..cr].sort_by { - dp[i][_1] }
       first = false
     end
 
-    deque.pop while !deque.empty? && dp[i][deque[-1]] <= dp[i][cr]
-    deque.shift while !deque.empty? && deque[0] < cl
+    # crがmax_idxsの右端(最小)になるよう設定
+    max_idxs.pop while !max_idxs.empty? && dp[i][max_idxs[-1]] <= dp[i][cr]
 
-    deque << cr
-    val = dp[i][deque[0]]
+    # clよりindexが小さいものは候補とならないので取り除く
+    max_idxs.shift while !max_idxs.empty? && max_idxs[0] < cl
+
+    max_idxs << cr
+    val = dp[i][max_idxs[0]]
     next if val == -1
     dp[i + 1][j] = [dp[i + 1][j], val + v].max
   end
