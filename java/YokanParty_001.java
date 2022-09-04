@@ -1,3 +1,4 @@
+package java;
 /**
  * 001 - Yokan Party（★4）
  * 貪欲法
@@ -6,7 +7,7 @@
 
 import java.util.*;
 
-public class Main {
+public class YokanParty_001 {
 
   static int N;
   static int L;
@@ -30,6 +31,8 @@ public class Main {
       else right = mid;
     }
     System.out.println(left);
+
+    sc.close();
   }
 
   public static boolean isCutting(int c) {
