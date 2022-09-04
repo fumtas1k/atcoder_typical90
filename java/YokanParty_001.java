@@ -1,12 +1,12 @@
 package java;
+
+import java.util.*;
+
 /**
  * 001 - Yokan Party（★4）
  * 貪欲法
  * 二分探索法
  */
-
-import java.util.*;
-
 public class YokanParty_001 {
 
   static int N;
