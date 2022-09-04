@@ -7,7 +7,6 @@ import java.util.*;
  * bit全探索
  * 正しい括弧列の条件
  */
-
 public class EncyclopediaOfParentheses_002 {
 
   static int N;
