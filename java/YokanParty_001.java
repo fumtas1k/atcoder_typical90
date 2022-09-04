@@ -3,7 +3,7 @@ package java;
  * 001 - Yokan Party（★4）
  * 貪欲法
  * 二分探索法
-*/
+ */
 
 import java.util.*;
 
@@ -16,6 +16,7 @@ public class YokanParty_001 {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+
     N = sc.nextInt();
     L = sc.nextInt();
     K = sc.nextInt();
@@ -23,6 +24,8 @@ public class YokanParty_001 {
     for (int i = 0; i < N; i++) {
       A[i] = sc.nextInt();
     }
+
+    /* 2分探索 */
     int left = 0;
     int right = L + 1;
     while (right - left > 1) {
@@ -30,11 +33,18 @@ public class YokanParty_001 {
       if (isCutting(mid)) left = mid;
       else right = mid;
     }
+
     System.out.println(left);
 
     sc.close();
   }
 
+  /**
+   * カット可能か判断
+   *
+   * @param c カット数
+   * @return boolean
+   */
   public static boolean isCutting(int c) {
     int cnt = 0;
     int pre = 0;
