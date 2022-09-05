@@ -17,12 +17,12 @@ def dfs(pos, pre)
   end
 end
 
-@dist = [0] * N
+@dist = [1] * N
 # dfsを用いて、頂点0(1)からの最短距離を@distに記録し、最短距離の最大となる頂点を特定する
 dfs(0, -1)
 max_id = @dist.index(@dist.max)
 
-@dist = [0] * N
+@dist = [1] * N
 # 頂点max_idから、最短距離の最大値（木の直径）を求める
 dfs(max_id, -1)
-puts @dist.max + 1
+puts @dist.max

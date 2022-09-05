@@ -12,10 +12,10 @@ end
 # startから各nodeの距離を計測し、[最短距離の最大値, そのindex]を返す
 def distance(start)
   dist = []
-  dist[start] = 0
+  dist[start] = 1
   log = [start]
 
-  while log.size > 0
+  until log.empty?
     from = log.shift
     G[from].each do |to|
       next if dist[to]
@@ -31,4 +31,4 @@ _, max_id = distance(0)
 
 # 頂点max_idから、木の直径（最短距離の最大値）を求める
 max, = distance(max_id)
-puts max + 1
+puts max
