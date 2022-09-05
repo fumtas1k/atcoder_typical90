@@ -9,20 +9,22 @@ G = Array.new(N) { [] }
   G[b] << a
 end
 
-def dfs(pos, pre)
+def dfs(pos)
   G[pos].each do |i|
-    next if i == pre
+    next unless @dist[i] == 0
     @dist[i] = @dist[pos] + 1
-    dfs(i, pos)
+    dfs(i)
   end
 end
 
-@dist = [1] * N
+@dist = [0] * N
+@dist[0] = 1
 # dfsを用いて、頂点0(1)からの最短距離を@distに記録し、最短距離の最大となる頂点を特定する
-dfs(0, -1)
+dfs(0)
 max_id = @dist.index(@dist.max)
 
-@dist = [1] * N
+@dist = [0] * N
+@dist[max_id] = 1
 # 頂点max_idから、最短距離の最大値（木の直径）を求める
-dfs(max_id, -1)
+dfs(max_id)
 puts @dist.max
