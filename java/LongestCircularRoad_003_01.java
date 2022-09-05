@@ -50,7 +50,8 @@ public class LongestCircularRoad_003_01 {
     log.add(start);
 
     while (!log.isEmpty()) {
-      int from = log.get(0); log.remove(0);
+      int from = log.get(0);
+      log.remove(0);
       for (int to : G[from]) {
         if (dist[to] != 0) continue;
         dist[to] = dist[from] + 1;
