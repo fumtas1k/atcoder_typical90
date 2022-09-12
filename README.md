@@ -13,7 +13,7 @@ atcoderの典型90問の解法集.
 |005|桁DP法, ダブリング||||
 | [006 - Smallest Subsequence（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_f) | 貪欲法 | [ruby1](ruby/006-01_SmallestSubsequence.rb), [ruby2](ruby/006-02_SmallestSubsequence.rb) | [java](java/SmallestSubsequence_006.java) | [解説](https://twitter.com/e869120/status/1379202843622576130/photo/1) |
 | [007 - CP Classes（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_g) | 二分探索法 | [ruby](ruby/007_CPClasses.rb) | [java](java/CPClasses_007.java) | [解説](https://twitter.com/e869120/status/1379565222541680644/photo/1) |
-| [008 - AtCounter（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_h) | 状態DP法 | [ruby](ruby/008_AtCounter.rb) |  | [解説](https://twitter.com/e869120/status/1379927227739987972/photo/1) |
+| [008 - AtCounter（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_h) | 状態DP法 | [ruby](ruby/008_AtCounter.rb) | [java](java/AtCounter_008.java) | [解説](https://twitter.com/e869120/status/1379927227739987972/photo/1) |
 | 009 |二分探索法, 偏角ソート, 真ん中決め打ち||||
 | [010 - Score Sum Queries（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_j) | 累積和 | [ruby](ruby/010_ScoreSumQueries.rb) |  | [解説](https://twitter.com/e869120/status/1380652465834532865) |
 | [011 - Gravy Jobs（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_k) | DP法, 締め切りが早い順 | [ruby](ruby/011_GravyJobs.rb) |  | [解説](https://github.com/E869120/kyopro_educational_90/blob/main/sol/011-03.cpp) |
