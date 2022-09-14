@@ -31,7 +31,7 @@ public class ThreePointAngle_009 {
       List<Double> angles = new ArrayList<>();
       for (int j = 0; j < N; j++) {
         if (i == j) continue;
-        angles.add(computeAngle(posList[i].minus(posList[j])));
+        angles.add(computeAngle(posList[j].minus(posList[i])));
       }
 
       Collections.sort(angles);
