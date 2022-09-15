@@ -12,7 +12,6 @@ public class RedPainting_012 {
   private static int H;
   private static int W;
   private static int Q;
-  private static int[] query;
   private static final int[][] DIRECTS = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
 
   public static void main(String[] args) {
