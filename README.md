@@ -65,7 +65,7 @@ atcoderの典型90問の解法集.
 | [057 - Flip Flap（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_be) | 掃き出し法 | [ruby](ruby/057_FlipFlap.rb) |  |[解説](https://twitter.com/e869120/status/1400584377902399490) |
 | [058 - Original Calculator（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bf) |  | [ruby](ruby/058_OriginalCalculator.rb) |  | [解説](https://twitter.com/e869120/status/1400584377902399490) |
 | 059 |||||
-| [060 - Chimera（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bh) | 最長増加部分列(LIS), 二分探索法 | [ruby](ruby/060_Chimera.rb) |  | [解説](https://twitter.com/e869120/status/1402034055734980608) |
+| [060 - Chimera（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_bh) | 最長増加部分列(LIS), 二分探索法 | [ruby](ruby/060_Chimera.rb) | [java](java/Chimera_060.java) | [解説](https://twitter.com/e869120/status/1402034055734980608) |
 | [061 - Deck（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bi) | deque | [ruby](ruby/061_Deck.rb) |  | [解説](https://twitter.com/e869120/status/1402395219287371779) |
 | [062 - Paint All（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_bj) | 幅優先探索, 後ろから考える | [ruby](ruby/062_PaintAll.rb) |  | [解説](https://twitter.com/e869120/status/1402758934268571648) |
 | [063 - Monochromatic Subgrid（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_bk) | bit全探索 | [ruby](ruby/063_MonochromaticSubgrid.rb) |  | [解説](https://twitter.com/e869120/status/1403121388773249024) |
