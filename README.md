@@ -36,7 +36,7 @@ atcoderの典型90問の解法集.
 | [028 - Cluttered Paper（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ab) | いもす法 | [ruby](ruby/028_ClutteredPaper.rb) |  | [解説](https://twitter.com/e869120/status/1388262816101007363) |
 | 029 | 座標圧縮, セグメント木 ||||
 | 030 | エラトステネスの篩 ||||
-| 031 |||||
+| [031 - VS AtCoder（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_ae) | grundy | [ruby](ruby/031_VsAtCoder.rb) | [java](java/VsAtCoder_031.java) | [解説](https://twitter.com/e869120/status/1389711962213261316) |
 | [032 - AtCoder Ekiden（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_af) | 順列全探索 | [ruby](ruby/032_AtCoderEkiden.rb) |  | [解説](https://twitter.com/e869120/status/1390074137192767489) |
 | [033 - Not Too Bright（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_ag) | 境界条件 | [ruby](ruby/033_NotTooBright.rb) |  | [解説](https://twitter.com/e869120/status/1390436977808351234) |
 | [034 - There are few types of elements（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ah) | 尺取法 | [ruby](ruby/034_ThereAreFewTypesOfElements.rb) |  | [解説](https://twitter.com/e869120/status/1390798852299448322) |
