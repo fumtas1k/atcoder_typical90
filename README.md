@@ -6,7 +6,7 @@ atcoderの典型90問の解法集.
 
 | 問題文 | アルゴリズム等 | ruby解 | java解 | kotlin解 | 解説 |
 |-|-|-|-|-|-|
-| [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a) | 貪欲法, 二分探索法 | [ruby](ruby/001_YokanParty.rb) | [java](java/YokanParty_001.java) | | [解説](https://twitter.com/e869120/status/1377027868518064129/photo/1) |
+| [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a) | 貪欲法, 二分探索法 | [ruby](ruby/001_YokanParty.rb) | [java](java/YokanParty_001.java) | [kotlin](kotlin/001YokanParty.kt)| [解説](https://twitter.com/e869120/status/1377027868518064129/photo/1) |
 | [002 - Encyclopedia of Parentheses（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_b) | bit全探索 | [ruby](ruby/002_EncyclopediaOfParentheses.rb) | [java](java/EncyclopediaOfParentheses_002.java) | | [解説](https://twitter.com/e869120/status/1377391097836544001/photo/1) |
 | [003 - Longest Circular Road（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_c) | 木の直径 | [ruby1](ruby/003-01_LongestCircularRoad.rb), [ruby2](ruby/003-02_LongestCircularRoad.rb) | [java1](java/LongestCircularRoad_003_01.java), [java2](java/LongestCircularRoad_003_02.java) | | [解説](https://twitter.com/e869120/status/1377752658149175299/photo/1) |
 | [004 - Cross Sum（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_d) |包除原理 | [ruby](ruby/004_CrossSum.rb) | [java](java/CrossSum_004.java) | | [解説](https://twitter.com/e869120/status/1378115289649348611/photo/1) |
