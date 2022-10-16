@@ -33,7 +33,7 @@ atcoderの典型90問の解法集.
 | [025 - Digit Product Equation（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_y) | 再帰関数 | [ruby](ruby/025_DigitProductEquation.rb) |  | | [解説](https://twitter.com/e869120/status/1387175538544975872) |
 | [026 - Independent Set on a Tree（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_z) | 二部グラフ, 再帰関数 | [ruby](ruby/026_IndependentSetOnATree.rb) |  | | [解説](https://twitter.com/e869120/status/1387538790017769474) |
 | [027 - Sign Up Requests （★2）](https://atcoder.jp/contests/typical90/tasks/typical90_aa) | Hash(Set) | [ruby](ruby/027_SignUpRequests.rb) |  | | [解説](https://twitter.com/e869120/status/1387901052683386880) |
-| [028 - Cluttered Paper（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ab) | いもす法 | [ruby](ruby/028_ClutteredPaper.rb) |  | | [解説](https://twitter.com/e869120/status/1388262816101007363) |
+| [028 - Cluttered Paper（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_ab) | いもす法 | [ruby](ruby/028_ClutteredPaper.rb) |  | [kotlin](kotlin/028_ClutteredPaper.kt) | [解説](https://twitter.com/e869120/status/1388262816101007363) |
 | [029 - Long Bricks（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ac) | 座標圧縮, セグメント木 ||| | [解説](https://twitter.com/e869120/status/1388674962823663619) |
 | [030 - K Factors（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_ad) | エラトステネスの篩 ||| | [解説](https://twitter.com/e869120/status/1389349360866009090) |
 | [031 - VS AtCoder（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_ae) | grundy | [ruby](ruby/031_VsAtCoder.rb) | [java](java/VsAtCoder_031.java) | | [解説](https://twitter.com/e869120/status/1389711962213261316) |
