@@ -31,5 +31,5 @@ fun main() {
 
   cnt.flatten().forEach { ans[it] += 1 }
 
-  for (i in 1 .. N) println(ans[i])
+  ans.drop(1).forEach(::println)
 }
