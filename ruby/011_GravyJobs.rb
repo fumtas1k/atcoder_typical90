@@ -9,11 +9,10 @@ max_d = DCS.last[0]
 # 上記のDP法で行うと最大2.5x10^7回のループとなりTLEする
 dp = [0] * (max_d + 1)
 
-N.times do |i|
-  d, c, s = DCS[i]
-  d.downto(c) do |j|
-    # 仕事iをする場合としない場合のうち最大値を取る
-    dp[j] = [dp[j], dp[j - c] + s].max
+DCS.each do |d, c, s|
+  d.downto(c) do |i|
+    # 仕事をする場合としない場合のうち最大値を取る
+    dp[i] = [dp[i], dp[i - c] + s].max
   end
 end
 
