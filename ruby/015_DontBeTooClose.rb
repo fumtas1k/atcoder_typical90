@@ -5,18 +5,18 @@ MOD = 10 ** 9 + 7
 
 N = gets.to_i
 
-def modpow(a, b, m)
-  p, q = 1, a
-  while b != 0
-    if b & 1 == 1
-      p *= q
-      p %= m
+def modpow(a, b, mod)
+  result, mul, exp = 1, a, b
+  while exp > 0
+    if exp & 1 == 1
+      result *= mul
+      result %= mod
     end
-    q *= q
-    q %= m
-    b /= 2
+    mul *= mul
+    mul %= mod
+    exp /= 2
   end
-  p
+  result
 end
 
 # フェルマーの小定理
@@ -27,10 +27,7 @@ end
 
 @fact = (1..N).reduce([1]) {|mul, i| (mul << mul[-1] * i % MOD) }
 
-@factinv = []
-(0..N).each do |i|
-  @factinv[i] = div(1, @fact[i], MOD)
-end
+@factinv = (0..N).map { div(1, @fact[_1], MOD) }
 
 def ncr(n, r)
   return 0 if n < r || r < 0
