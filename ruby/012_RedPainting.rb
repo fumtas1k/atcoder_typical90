@@ -20,10 +20,10 @@ class UnionFind
   end
 
   def unite(u, v)
-    _u, _v = root(u), root(v)
-    return if _u == _v
+    ru, rv = root(u), root(v)
+    return if ru == rv
     # relations[_v] |= relations[_u]
-    parents[_u] = _v
+    parents[ru] = rv
   end
 end
 
