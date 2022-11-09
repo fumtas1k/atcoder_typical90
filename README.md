@@ -4,6 +4,8 @@ atcoderの典型90問の解法集.
 
 ## 各論
 
+javaに関しては、クラス名をMainに変更しないとatcoderでは機能しないので注意。
+
 | 問題文 | アルゴリズム等 | ruby解 | java解 | kotlin解 | 解説 |
 |-|-|-|-|-|-|
 | [001 - Yokan Party（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_a) | 貪欲法, 二分探索法 | [ruby](ruby/001_YokanParty.rb) | [java](java/YokanParty_001.java) | [kotlin](kotlin/001YokanParty.kt)| [解説](https://twitter.com/e869120/status/1377027868518064129/photo/1) |
@@ -26,7 +28,7 @@ atcoderの典型90問の解法集.
 | [018 - Statue of Chokudai（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_r) | 三角関数 | [ruby](ruby/018_StatueOfChokudai.rb) |  | | [解説](https://twitter.com/e869120/status/1384276005330690049) |
 | [019 - Pick Two（★6）](https://atcoder.jp/contests/typical90/tasks/typical90_s) | 区間DP法 | [ruby](ruby/019_PickTwo.rb) |  | | [解説](https://twitter.com/e869120/status/1384638694162780166) |
 | [020 - Log Inequality（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_t) | 整数 | [ruby](ruby/020_LogInequality.rb) |  | | [解説](https://twitter.com/e869120/status/1385001057512693762) |
-| [021 - Come Back in One Piece（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_u) | 強連結成分分解 | [ruby](ruby/021_ComeBackInOnePiece.rb) |  | | [解説](https://twitter.com/e869120/status/1385363292739104775) |
+| [021 - Come Back in One Piece（★5）](https://atcoder.jp/contests/typical90/tasks/typical90_u) | 強連結成分分解 | [ruby](ruby/021_ComeBackInOnePiece.rb) | [java](java/ComeBackInOnePiece_021.java) |  | [解説](https://twitter.com/e869120/status/1385363292739104775) |
 | [022 - Cubic Cake（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_v) | ユークリッド互除法 | [ruby1](ruby/022-01_CubicCake.rb), [ruby2](ruby/022-02_CubicCake.rb) |  | | [解説](https://twitter.com/e869120/status/1385725481920520193) |
 | [023 - Avoid War（★7）](https://atcoder.jp/contests/typical90/tasks/typical90_w) |bit全探索, bitDP法 ||| | [解説](https://twitter.com/e869120/status/1386138990361726978) |
 | [024 - Select +／- One（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_x) | パリティ | [ruby](ruby/024_Select+／-One.rb) |  | | [解説](https://twitter.com/e869120/status/1386814047081746432) |
