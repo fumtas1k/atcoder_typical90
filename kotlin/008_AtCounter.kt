@@ -1,4 +1,5 @@
-/** 008 - AtCounter（★4）
+/**
+ * 008 - AtCounter（★4）
  * 状態DP法
  */
 

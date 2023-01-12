@@ -1,4 +1,5 @@
-/** 034 - There are few types of elements（★4）
+/**
+ * 034 - There are few types of elements（★4）
  * 尺取法
  */
 

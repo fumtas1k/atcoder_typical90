@@ -1,4 +1,4 @@
-/*
+/**
  * 021 - Come Back in One Piece（★5）
  * 強連結成分分解
  */

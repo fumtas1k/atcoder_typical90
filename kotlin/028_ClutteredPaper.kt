@@ -1,4 +1,5 @@
-/** 028 - Cluttered Paper（★4）
+/**
+ * 028 - Cluttered Paper（★4）
  * いもす法
  */
 

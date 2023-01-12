@@ -1,4 +1,5 @@
-/** 012 - Red Painting（★4）
+/**
+ * 012 - Red Painting（★4）
  * Union-Find
  */
 

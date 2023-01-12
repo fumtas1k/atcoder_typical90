@@ -1,4 +1,5 @@
-/** 006 - Smallest Subsequence（★5）
+/**
+ * 006 - Smallest Subsequence（★5）
  * 貪欲法, 辞書順最小
  */
 
