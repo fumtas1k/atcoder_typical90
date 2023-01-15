@@ -2,7 +2,7 @@
 # 二部グラフ　再帰関数
 
 N = gets.to_i
-G = Hash.new {|hash, key| hash[key] = [] }
+G = Array.new(N + 1) { [] }
 (N - 1).times do |i|
   a, b = gets.split.map(&:to_i)
   G[a] << b
@@ -19,5 +19,4 @@ def dfs(pos = 1, parity = 0)
 end
 
 dfs(1, 0)
-ans = G01.max_by(&:size)[0, N / 2]
-puts ans.join(" ")
+puts G01.max_by(&:size).take(N / 2).join(" ")
