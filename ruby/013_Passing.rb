@@ -10,8 +10,8 @@ M.times do
 end
 
 def dijkstra(start)
-  times = [10 ** 9] * N
-  times[start] = 0
+  costs = [10 ** 9] * N
+  costs[start] = 0
 
   # 最小コストの頂点をnexに入れていく
   nex = [start]
@@ -20,18 +20,18 @@ def dijkstra(start)
     # 現時点での最小コストとなる頂点をposに入れる
     from = nex.shift
     G[from].each do |to, c|
-      next if times[to] <= times[from] + c
-      times[to] = times[from] + c
+      next if costs[to] <= costs[from] + c
+      costs[to] = costs[from] + c
       # nexが最小コスト順の頂点になるよう二分探索を用いてinsert場所を探す
-      i = nex.bsearch_index { times[_1] > times[to] } || nex.size
-      nex.insert(i, to) unless nex[i - 1] == to
+      i = nex.bsearch_index { costs[_1] > costs[to] } || nex.size
+      nex.insert(i, to)
     end
   end
-  times
+  costs
 end
 
 # 事前にコストを計算しておく
 one_to_n = dijkstra(0)
 n_to_one = dijkstra(N - 1)
 
-puts N.times.reduce([]) {|arr, i| arr << one_to_n[i] + n_to_one[i] }
+puts N.times.map { one_to_n[_1] + n_to_one[_1] }
