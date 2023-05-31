@@ -3,7 +3,7 @@
 
 N = gets.to_i
 A = gets.split.map(&:to_i)
-dp = Array.new(2 * N) { [10 ** 18] * (2 * N) }
+dp = Array.new(2 * N) { [Float::INFINITY] * (2 * N) }
 
 # 初期化
 (2 * N).times do |i|
@@ -12,12 +12,12 @@ dp = Array.new(2 * N) { [10 ** 18] * (2 * N) }
 end
 
 # 2つずつ消していくので区間は偶数
-3.step(2 * N - 1, 2) do |i|
-  (2 * N - i).times do |j|
-    cl, cr = j, j + i
-    dp[cl][cr] = [dp[cl][cr], dp[cl + 1][cr - 1] + (A[cl] - A[cr]).abs].min
-    (cl..(cr - 1)).each do |k|
-      dp[cl][cr] = [dp[cl][cr], dp[cl][k] + dp[k + 1][cr]].min
+3.step(2 * N - 1, 2) do |dl|
+  (2 * N - dl).times do |l|
+    r = l + dl
+    dp[l][r] = [dp[l][r], dp[l + 1][r - 1] + (A[l] - A[r]).abs].min
+    (l ... r).each do |k|
+      dp[l][r] = [dp[l][r], dp[l][k] + dp[k + 1][r]].min
     end
   end
 end
