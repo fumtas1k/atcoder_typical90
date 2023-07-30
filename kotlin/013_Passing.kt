@@ -5,13 +5,11 @@
 
 import java.util.PriorityQueue
 
-fun readInts() = readLine()!!.split(" ").map(String::toInt)
-
 fun main() {
-  val (N, M) = readInts()
+  val (N, M) = readLine()!!.split(" ").map(String::toInt)
   val G = MutableList(N) { mutableListOf<Pair<Int, Int>>() }
   repeat(M) {
-    val(a, b, c) = readInts()
+    val(a, b, c) = readLine()!!.split(" ").map(String::toInt)
     G[a - 1].add(Pair(b - 1, c))
     G[b - 1].add(Pair(a - 1, c))
   }
@@ -26,8 +24,8 @@ fun main() {
       val (from, fromC) = log.poll()
       if (cost[from] < fromC) continue
 
-      for ((to, toC) in G[from]) {
-        if (cost[to] < cost[from] + toC) continue
+      G[from].forEach { (to, toC) ->
+        if (cost[to] < cost[from] + toC) return@forEach
         cost[to] = cost[from] + toC
         log.add(Pair(to, cost[to]))
       }
@@ -38,7 +36,7 @@ fun main() {
   val oneToN = dijkstra(0)
   val nToOne = dijkstra(N - 1)
   val ans = MutableList(N) { 0 }
-  for (i in 0 until N) ans[i] = oneToN[i] + nToOne[i]
+  repeat(N) { ans[it] = oneToN[it] + nToOne[it] }
 
   ans.forEach(::println)
 }
