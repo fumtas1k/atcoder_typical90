@@ -8,7 +8,7 @@ fun solve() {
   val N = readLine()!!.toInt()
   val G = MutableList(N) { mutableListOf<Int>() }
   repeat(N - 1) {
-    val (a, b) = readLine()!!.split(" ").map { it.toInt() - 1 }
+    val (a, b) = readLine()!!.split(" ").map(String::toInt).map(Int::dec)
     G[a].add(b)
     G[b].add(a)
   }
@@ -16,10 +16,10 @@ fun solve() {
   var dists = MutableList(N) { 0 }
 
   fun dfs(pos: Int) {
-    for(i in G[pos]) {
-      if (dists[i] > 0) continue
-      dists[i] = dists[pos] + 1
-      dfs(i)
+    G[pos].forEach {
+      if (dists[it] > 0) return@forEach
+      dists[it] = dists[pos] + 1
+      dfs(it)
     }
   }
 
