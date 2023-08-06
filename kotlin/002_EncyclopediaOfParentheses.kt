@@ -6,25 +6,26 @@
 
 fun main() {
   val N = readLine()!!.toInt()
-  val brackets = mutableListOf<String>()
 
-  if (N and 1 == 1) return
-  for (i in 0 until 1.shl(N)) {
-    val list = mutableListOf<String>()
-    for (j in 0 until N) {
-      list.add(if (i.shr(j) and 1 == 0) "(" else ")")
+  if (N % 2 == 1) return println("")
+
+  val ans = mutableListOf<String>()
+  repeat(1.shl(N)) { bits ->
+    val brackets = mutableListOf<Char>()
+    repeat(N) { i ->
+      brackets.add(if (bits.shr(i).and(1) == 1) '(' else ')')
     }
-    if (isBracket(list)) brackets.add(list.joinToString(""))
+    if (!isBrackets(brackets)) return@repeat
+    ans.add(brackets.joinToString(""))
   }
-  brackets.sorted().forEach(::println)
+  ans.sorted().forEach(::println)
 }
 
-fun isBracket(brackets: MutableList<String>): Boolean {
+fun isBrackets(brackets: MutableList<Char>): Boolean {
   var cnt = 0
-  for (b in brackets) {
-    if (b == "(") cnt++
-    else cnt--
-    if (cnt < 0) break
+  brackets.forEach {
+    cnt += if (it == '(') 1 else -1
+    if (cnt < 0) return false
   }
   return cnt == 0
 }
