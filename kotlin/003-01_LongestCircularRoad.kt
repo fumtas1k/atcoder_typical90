@@ -8,30 +8,35 @@
 @kotlin.ExperimentalStdlibApi
 fun main() {
   val N = readLine()!!.toInt()
-  val G = MutableList(N) { mutableListOf<Int>() }
+  val G = MutableList(N + 1) { mutableListOf<Int>() }
   repeat(N - 1) {
-    val(a, b) = readLine()!!.split(" ").map { it.toInt() - 1 }
+    val (a, b) = readLine()!!.split(" ").map(String::toInt)
     G[a].add(b)
     G[b].add(a)
   }
 
+  /**
+   * bfs
+   * @param start 開始位置
+   * @return Pair<ゴール, 道路数>
+   */
   fun bfs(start: Int): Pair<Int, Int> {
-    val distances = MutableList(N) { 0 }
-    distances[start] = 1
     val nextPos = ArrayDeque<Int>(listOf(start))
-
+    val dists = MutableList(N + 1) { -1 }
+    dists[start] = 0
     while (nextPos.isNotEmpty()) {
       val pos = nextPos.removeFirst()
-      for (i in G[pos]) {
-        if (distances[i] != 0) continue
-        distances[i] = distances[pos] + 1
-        nextPos.add(i)
+      G[pos].forEach {
+        if (dists[it] != -1) return@forEach
+        dists[it] = dists[pos] + 1
+        nextPos.add(it)
       }
     }
-    val maxDistance = distances.max()!!
-    return Pair(distances.indexOf(maxDistance), maxDistance)
+
+    val maxIdx = (0 .. N).maxBy { dists[it] }!!
+    return Pair(maxIdx, dists[maxIdx])
   }
 
-  val (maxDistanceIdx, _) = bfs(0)
-  println(bfs(maxDistanceIdx).second)
+  val maxIdx = bfs(1).first
+  println(bfs(maxIdx).second + 1)
 }

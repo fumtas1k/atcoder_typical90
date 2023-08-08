@@ -6,34 +6,34 @@
 
 fun solve() {
   val N = readLine()!!.toInt()
-  val G = MutableList(N) { mutableListOf<Int>() }
+  val G = MutableList(N + 1) { mutableListOf<Int>() }
   repeat(N - 1) {
-    val (a, b) = readLine()!!.split(" ").map(String::toInt).map(Int::dec)
+    val (a, b) = readLine()!!.split(" ").map(String::toInt)
     G[a].add(b)
     G[b].add(a)
   }
 
-  var dists = MutableList(N) { 0 }
+  var dists = MutableList(N + 1) { -1 }
 
   fun dfs(pos: Int) {
     G[pos].forEach {
-      if (dists[it] > 0) return@forEach
+      if (dists[it] >= 0) return@forEach
       dists[it] = dists[pos] + 1
       dfs(it)
     }
   }
 
-  dists[0] = 1
-  // dfsを用いて、頂点0(1)からの最短距離をdistsに記録し、最短距離の最大となる頂点を特定する
-  dfs(0)
+  dists[1] = 0
+  // dfsを用いて、頂点1からの最短距離をdistsに記録し、最短距離の最大となる頂点を特定する
+  dfs(1)
 
-  val maxIdx = (0 until N).maxBy { dists[it] }!!
+  val maxIdx = (1 .. N).maxBy { dists[it] }!!
 
-  dists = MutableList<Int>(N) { 0 }
-  dists[maxIdx] = 1
+  dists.fill(-1)
+  dists[maxIdx] = 0
   // 頂点max_idから、最短距離の最大値（木の直径）を求める
   dfs(maxIdx)
-  println(dists.max())
+  println(dists.max()!! + 1)
 }
 
 fun main() {
