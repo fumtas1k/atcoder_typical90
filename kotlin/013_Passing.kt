@@ -7,18 +7,18 @@ import java.util.PriorityQueue
 
 fun main() {
   val (N, M) = readLine()!!.split(" ").map(String::toInt)
-  val G = MutableList(N) { mutableListOf<Pair<Int, Int>>() }
+  val G = Array(N) { mutableListOf<Pair<Int, Int>>() }
   repeat(M) {
     val(a, b, c) = readLine()!!.split(" ").map(String::toInt)
     G[a - 1].add(Pair(b - 1, c))
     G[b - 1].add(Pair(a - 1, c))
   }
 
-  fun dijkstra(start: Int): MutableList<Int> {
-    val cost = MutableList(N) { 1_000_000_000 }
-    cost[start] = 0
-    val log = PriorityQueue<Pair<Int, Int>> {a, b -> a.second - b.second }
-    log.add(Pair(start, 0))
+  fun dijkstra(start: Int): LongArray {
+    val cost = LongArray(N) { 100_000L * 10_000 }
+    cost[start] = 0L
+    val log = PriorityQueue<Pair<Int, Long>>(compareBy {it.second} )
+    log.add(Pair(start, 0L))
 
     while (log.isNotEmpty()) {
       val (from, fromC) = log.poll()
@@ -35,7 +35,7 @@ fun main() {
 
   val oneToN = dijkstra(0)
   val nToOne = dijkstra(N - 1)
-  val ans = MutableList(N) { 0 }
+  val ans = LongArray(N) { 0 }
   repeat(N) { ans[it] = oneToN[it] + nToOne[it] }
 
   ans.forEach(::println)
