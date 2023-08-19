@@ -17,8 +17,7 @@ fun main() {
   fun dijkstra(start: Int): LongArray {
     val cost = LongArray(N) { 100_000L * 10_000 }
     cost[start] = 0L
-    val log = PriorityQueue<Pair<Int, Long>>(compareBy {it.second} )
-    log.add(Pair(start, 0L))
+    val log = PriorityQueue(sortedSetOf(compareBy {it.second}, Pair(start, 0L)))
 
     while (log.isNotEmpty()) {
       val (from, fromC) = log.poll()
