@@ -5,7 +5,7 @@
  */
 
 // kotlin 1.3.7ではArrayDequeはまだ実験的導入だったため記述が必要
-@kotlin.ExperimentalStdlibApi
+@OptIn(ExperimentalStdlibApi::class)
 fun main() {
   val N = readLine()!!.toInt()
   val G = MutableList(N + 1) { mutableListOf<Int>() }
