@@ -3,19 +3,24 @@
  * 二分探索法
  */
 
+ import java.io.PrintWriter
+
 fun main() {
   val N = readLine()!!.toInt()
   val A = readLine()!!.split(" ").map(String::toInt).sorted()
   val Q = readLine()!!.toInt()
   val B = List(Q) { readLine()!!.toInt() }
 
+  val pw = PrintWriter(System.out, false)
   B.forEach {
     val idx = A.lowerBound(it)
     var discontent = 1_000_000_000
-    if (idx > 0) discontent = Math.min(discontent, Math.abs(it - A[idx - 1]))
-    if (idx < N) discontent = Math.min(discontent, Math.abs(it - A[idx]))
-    println(discontent)
+    if (idx > 0) discontent = minOf(discontent, Math.abs(it - A[idx - 1]))
+    if (idx < N) discontent = minOf(discontent, Math.abs(it - A[idx]))
+    pw.println(discontent)
   }
+  pw.flush()
+  pw.close()
 }
 
 /**
