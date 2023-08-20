@@ -3,11 +3,13 @@
  * 累積和
  */
 
+import java.io.PrintWriter
+
 fun main() {
 
   val N = readLine()!!.toInt()
-  val A = MutableList<Int>(N + 1) { 0 }
-  val B = MutableList<Int>(N + 1) { 0 }
+  val A = IntArray(N + 1) { 0 }
+  val B = IntArray(N + 1) { 0 }
   repeat(N) {
     val (c, p) = readLine()!!.split(" ").map(String::toInt)
     A[it + 1] = A[it]
@@ -19,9 +21,14 @@ fun main() {
   }
 
   val Q = readLine()!!.toInt()
-  repeat(Q) {
-    val (l, r) = readLine()!!.split(" ").map(String::toInt)
+  val LR = Array(Q) { readLine()!!.split(" ").map(String::toInt) }
+
+  val pw = PrintWriter(System.out, false)
+
+  LR.forEach { (l, r) ->
     val ans = listOf(A[r] - A[l - 1], B[r] - B[l - 1])
-    println(ans.joinToString(" "))
+    pw.println(ans.joinToString(" "))
   }
+  pw.flush()
+  pw.close()
 }
