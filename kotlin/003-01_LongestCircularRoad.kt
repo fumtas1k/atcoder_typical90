@@ -5,7 +5,7 @@
  */
 
 // kotlin 1.3.7ではArrayDequeはまだ実験的導入だったため記述が必要
-@OptIn(ExperimentalStdlibApi::class)
+@ExperimentalStdlibApi
 fun main() {
   val N = readLine()!!.toInt()
   val G = MutableList(N + 1) { mutableListOf<Int>() }
@@ -21,7 +21,7 @@ fun main() {
    * @return Pair<ゴール, 道路数>
    */
   fun bfs(start: Int): Pair<Int, Int> {
-    val nextPos = ArrayDeque<Int>(listOf(start))
+    val nextPos = ArrayDeque(listOf(start))
     val dists = IntArray(N + 1) { -1 }
     dists[start] = 0
     while (nextPos.isNotEmpty()) {
