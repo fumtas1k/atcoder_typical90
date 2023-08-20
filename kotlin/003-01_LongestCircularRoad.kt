@@ -22,7 +22,7 @@ fun main() {
    */
   fun bfs(start: Int): Pair<Int, Int> {
     val nextPos = ArrayDeque<Int>(listOf(start))
-    val dists = MutableList(N + 1) { -1 }
+    val dists = IntArray(N + 1) { -1 }
     dists[start] = 0
     while (nextPos.isNotEmpty()) {
       val pos = nextPos.removeFirst()
