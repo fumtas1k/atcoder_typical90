@@ -3,6 +3,7 @@
  *  ダイクストラ法
  */
 
+import java.io.PrintWriter
 import java.util.PriorityQueue
 
 fun main() {
@@ -34,8 +35,8 @@ fun main() {
 
   val oneToN = dijkstra(0)
   val nToOne = dijkstra(N - 1)
-  val ans = LongArray(N) { 0 }
-  repeat(N) { ans[it] = oneToN[it] + nToOne[it] }
-
-  ans.forEach(::println)
+  val pw = PrintWriter(System.out, false)
+  repeat(N) { pw.println(oneToN[it] + nToOne[it]) }
+  pw.flush()
+  pw.close()
 }
