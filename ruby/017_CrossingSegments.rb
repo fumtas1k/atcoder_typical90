@@ -61,19 +61,19 @@ end
 total = M * (M - 1) / 2
 
 # ① 端点で交わる場合の数
-ans1 = COUNT.sum { _1 * (_1 - 1) / 2 }
+comp1 = COUNT.sum { _1 * (_1 - 1) / 2 }
 
 # ② Rs < Ltの場合の数
 rcsum = R.reduce([0]) {|acc, i| acc << acc[-1] + i }
-ans2 = LR.sum {|l, _| rcsum[l] }
+comp2 = LR.sum {|l, _| rcsum[l] }
 
 # ③ 片方の区間内に入る場合の数
 L = Array.new(N, 0)
 lcsum = FenwickTree.new(N)
-ans3 = 0
+comp3 = 0
 LR.sort_by { [_1[1], _1[0]] }.each do |l, r|
-  ans3 += lcsum.sum(l + 1, r)
+  comp3 += lcsum.sum(l + 1, r)
   lcsum.add(l, 1)
 end
 
-puts total - ans1 - ans2 - ans3
+puts total - comp1 - comp2 - comp3
