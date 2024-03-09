@@ -13,6 +13,7 @@ C = gets.split.map(&:to_i)
 def mul(dpi, dpj, tenj)
   Array.new(B, 0).tap do |res|
     k = 0
+    # timesを2重ループさせるとTLEする. while が一番速い
     while k < B
       l = 0
       while l < B
