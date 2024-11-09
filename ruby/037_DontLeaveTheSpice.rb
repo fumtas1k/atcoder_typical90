@@ -17,12 +17,12 @@ LRV.each_with_index do |(l, r, v), i|
     cr = [0, j - l].max
 
     # max_idxsの左端がdp[i]のcl~cr区間最大値
-    max_idxs = [*cl..cr].sort_by { - dp[i][_1] } if max_idxs.empty?
+    max_idxs = (cl .. cr).sort_by { -dp[i][_1] } if max_idxs.empty?
 
     # clよりindexが小さいものは最大値候補とならないので取り除く
     max_idxs.shift while !max_idxs.empty? && max_idxs[0] < cl
 
-    # dp[cr]以下の価値は今後最大値候補とならないのでそのindexを取り除く
+    # dp[i][cr]以下の価値は今後最大値候補とならないのでそのindexを取り除く
     max_idxs.pop while !max_idxs.empty? && dp[i][max_idxs[-1]] <= dp[i][cr]
     max_idxs << cr
 
